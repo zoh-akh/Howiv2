@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "welcome-howi-client-side-solution",
+    "id": "19d0e74e-b631-4c86-a69f-fd8d392d9ecc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "welcome-howi description"
+      },
+      "longDescription": {
+        "default": "welcome-howi description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "welcome-howi Feature",
+        "description": "The feature that activates elements of the welcome-howi solution.",
+        "id": "e73e92ae-d6b6-4c5d-a74a-18277de1d329",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/welcome-howi.sppkg"
+  }
+}
