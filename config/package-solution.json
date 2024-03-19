@@ -3,7 +3,7 @@
   "solution": {
     "name": "welcome-howi-client-side-solution",
     "id": "19d0e74e-b631-4c86-a69f-fd8d392d9ecc",
-    "version": "1.0.0.0",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,

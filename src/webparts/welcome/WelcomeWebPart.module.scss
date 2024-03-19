@@ -1,4 +1,5 @@
-@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+// @import "office-ui-fabric-core/dist/sass/References";
 
 .welcome {
   overflow: hidden;
@@ -7,6 +8,9 @@
   color: var(--bodyText);
   &.teams {
     font-family: $ms-font-family-fallbacks;
+  }
+  h3 {
+    font-size: $ms-font-size-20;
   }
 }
 
@@ -19,12 +23,16 @@
   a {
     text-decoration: none;
     color: "[theme:link, default:#03787c]";
-    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+    color: var(
+      --link
+    ); // note: CSS Custom Properties support is limited to modern browsers only
 
     &:hover {
       text-decoration: underline;
       color: "[theme:linkHovered, default: #014446]";
-      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+      color: var(
+        --linkHovered
+      ); // note: CSS Custom Properties support is limited to modern browsers only
     }
   }
 }
