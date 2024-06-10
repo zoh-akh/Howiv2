@@ -10,7 +10,7 @@
     font-family: $ms-font-family-fallbacks;
   }
   h3 {
-    font-size: $ms-font-size-20;
+    font-size: var(--fontSizeBase600);
   }
 }
 

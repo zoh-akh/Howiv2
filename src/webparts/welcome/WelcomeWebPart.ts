@@ -1,6 +1,6 @@
 import { IPropertyPaneConfiguration } from "@microsoft/sp-property-pane";
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
-import styles from "./WelcomeWebPart.module.scss";
+import styles from "./WelcomeWebpart.module.scss";
 
 export interface IWelcomeWebPartProps {}
 
