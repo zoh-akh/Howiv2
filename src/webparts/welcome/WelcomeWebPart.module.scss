@@ -7,10 +7,11 @@
   color: "[theme:bodyText, default: #323130]";
   color: var(--bodyText);
   &.teams {
-    font-family: $ms-font-family-fallbacks;
+    font-family: var(--fontFamilyCustomFont1100, var(--fontFamilyBase));
   }
   h3 {
-    font-size: $ms-font-size-20;
+    font-size: var(--fontSizeBase600);
+    font-weight: var(--fontWeightSemibold);
   }
 }
 
